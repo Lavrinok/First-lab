@@ -1,0 +1,192 @@
+body{
+    text-align: left;
+    overflow-y: scroll;
+}
+header{
+    background: #444;
+    color: #ccc;
+    padding: 1.5em;
+    display: block;
+}
+header h1 {
+    background: transparent;
+    color: #fff;
+    text-align: left;
+}
+h1{
+    font-size: 342.85714%;
+    line-height: 0.875;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.4375em;
+    margin-left: 0px;
+    font-family: Helvetica;
+}
+.ym-skiplinks {
+    position: absolute;
+    top: 0px;
+    left: -32768px;
+    z-index: 1000;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ym-skip, .ym-hideme, .ym-print {
+    position: absolute;
+    top: -32768px;
+    left: -32768px;
+}
+.second{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    line-height: 1em;
+    background: #222;
+}
+.second ul li strong {
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 0.5em;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: auto;
+}
+li strong {
+    background: transparent;
+    color: #aaa;
+    display: block;
+    font-size: 1em;
+    line-height: 2em;
+    padding: 0 0.5em;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    width: auto;
+}
+.second ul {
+    margin: 0;
+    padding: 0.5em 1.5em;
+    display: inline;
+    float: left;
+}
+ul{
+        list-style-type: disc;
+        font-size: 100%;
+    line-height: 1.5;
+    
+}
+
+h2 {
+    font-size: 228.57143%;
+    line-height: 1.3125;
+    margin: 0 0 0.65625em 0;
+     font-family: "Droid Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #161e21;
+}
+p {
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0 0 1.5em 0;
+}
+main {
+    padding: 1.5em 0 0 0;
+}
+.info {
+    background: #f4f4f4;
+}
+.box {
+    border-radius: 0.3em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    padding: 1.42857em;
+    margin: 0 0 1.5em 0;
+}
+.box > *:last-child {
+    margin-bottom: 0;
+}
+.ym-button {
+}
+.ym-button {
+    display: inline-block;
+    white-space: nowrap;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+    background: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background: linear-gradient("to bottom", #eeeeee, #cccccc);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC');
+    zoom: 1;
+    border: 1px solid #777;
+    border-radius: .2em;
+    -webkit-box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 1px 1px rgba(255, 255, 255, 0.8) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    color: #333 !important;
+    cursor: pointer;
+    font: normal 1em/2em Arial, Helvetica;
+    margin: 0 0.75em 0 0;
+    padding: 0 1.5em;
+    overflow: visible;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+a {
+    color: #4d87c7;
+    background: transparent;
+    text-decoration: none;
+}
+.ym-button:before {
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0 1em 0 -1em;
+    padding: 0 .2em;
+    -webkit-box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+    box-shadow: 1px 0 0 rgba(0, 0, 0, 0.5), 2px 0 0 rgba(255, 255, 255, 0.5);
+    border-radius: .15em 0 0 .15em;
+    pointer-events: none;
+}
+h4 {
+    font-size: 150%;
+    line-height: 1;
+    margin: 0 0 1em 0;
+}
+.picture{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+.float-left {
+    float: left;
+    display: inline;
+    margin: 0 1em 1.5em 0;
+}
+.bordered{
+        border: 2px white solid;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    margin: 0;
+    background: #eee;
+    color: #444;
+    padding: 1.5em;
+}
+footer p{
+     margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+p{
+     font-size: 100%;
+    line-height: 1.5;
+}

@@ -1,0 +1,28 @@
+<html>
+<script>
+    var arr = [117, 23, 33, 14, 5, 60, 70, 8, 19, 101];
+    myFunc = function(arr) {
+        var arrayOfObjects = [];
+        arr.forEach(function(entry) {
+            var singleObj = {};
+            singleObj.value = entry;
+            singleObj.method = function(value) {
+                return (singleObj.value % 2 != 0) ? true : false;
+            };
+            arrayOfObjects.push(singleObj);
+        });
+        return arrayOfObjects;
+    };
+    console.log(myFunc(arr));
+
+    //check it
+    var my_arrayOfObjects = myFunc(arr);
+    for (i = 0; i < my_arrayOfObjects.length; i++)
+        document.write("<br>" + my_arrayOfObjects[i].value + " " + my_arrayOfObjects[i].method());
+
+</script>
+
+<body>
+</body>
+
+</html>
